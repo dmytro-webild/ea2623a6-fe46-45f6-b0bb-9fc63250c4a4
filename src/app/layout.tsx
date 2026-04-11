@@ -8,6 +8,7 @@ import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Lato } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { Inter_Tight } from "next/font/google";
 
 
 
@@ -25,8 +26,9 @@ export const metadata: Metadata = {
 };
 
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+
+const interTight = Inter_Tight({
+  variable: "--font-inter-tight",
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
@@ -39,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${poppins.variable} antialiased`}>
+        <body className={`${interTight.variable} antialiased`}>
           <Tag />
           {children}
           <script
