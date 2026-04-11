@@ -248,7 +248,7 @@ export default function LandingPage() {
           quote: "Exceptional support.",
           tag: "Tech",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-woman_23-2149022644.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020770.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C4G3PQyP0HBt0dMkI2YLJMg8fS/uploaded-1775907411588-nmtra3am.png",
         },
         {
           id: "3",
